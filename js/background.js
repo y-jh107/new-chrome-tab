@@ -9,5 +9,6 @@
 
   img.onload = () => {
     document.body.style.backgroundImage = `url(${HIGH_RES})`;
+    document.body.classList.add("loaded");
   };
 })();
